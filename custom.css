@@ -1,0 +1,188 @@
+
+/* custom style for login page */
+.card-deck{
+    padding: 15px;
+    max-width: 50%;
+    height: auto;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.card {    
+    padding: 15px;
+    max-width: 50%;
+    height: auto;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.editcard {    
+    padding: 15px;
+    max-width: 800px;
+    height: 800px;
+    margin: 10px auto;
+}
+
+body {
+    background-color:rgb(29, 29, 46);
+}
+
+#container{
+    width: 40%;
+	background: #fff;
+	margin-left: 750px;
+	padding: 20px;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-o-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+nav {
+    background-color: rgb(0, 0, 0);
+    border-style: ridge; 
+    border-width: 4px;
+    border-color: rgb(29, 29, 46);
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    text-shadow: 4px 4px 8px black;
+}
+nav a:hover{
+    
+	background-color: rgb(34, 37, 46);
+}
+
+p {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+ h1, h3 {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.display-4{
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+font-size: 50px ;
+font-weight: 900; 
+text-shadow: 4px 4px 8px black;
+}
+
+.lead{
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px ;
+font-weight: 500; 
+text-shadow: 4px 4px 8px black;
+
+}
+
+.my-4{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px ;
+    font-weight: 500; 
+    text-shadow: 4px 4px 8px black;
+}
+
+.jumbotron{
+    background-image: url(marketing1.gif);
+    height: 600px;
+}
+
+.jumbotron-extra{
+    background-image: url(1.jpg);
+    height: 600px;
+}
+
+h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px ;
+    font-weight: 500; 
+    text-shadow: 4px 4px 8px black;
+    text-align: center;
+}
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 27px ;
+    font-weight: 500; 
+    text-shadow: 4px 4px 8px black;
+}
+button{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px ;
+    font-weight: 500; 
+    text-shadow: 4px 4px 8px black;
+}
+
+.editcard{
+color: rgba(0, 0, 0, 0.452);
+
+}
+.form-control{
+
+width: 800px;
+height: 50px
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+    top:1px;
+}
+
+.container-fluid{
+  margin: 40px auto;
+  width: 900px; 
+  height: 1000px;
+  border-radius: 8px/7px; 
+/*   background-color: #181313; 
+ */    background-image: url(1.jpg);  
+ -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);  
+  border: solid 1px #272424;
+
+}
